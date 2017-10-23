@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=eas-enablement
+name=EAS Enablement for MSM8996
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=tabp0le
+description=This module enables full EAS support for MSM8996 devices. Must have an EAS kernel as well!
 template=1410

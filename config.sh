@@ -42,7 +42,10 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "  EAS Enablement for MSM8996   "
+  ui_print "     w/VoxPopuli PowerHAL      "
+  ui_print "    PowerHAL by @joshuous      "
+  ui_print "    Magisk Mod by @tabp0le     "
   ui_print "*******************************"
 }
 
@@ -88,4 +91,7 @@ set_permissions() {
 
   # The following is default permissions, DO NOT remove
   set_perm_recursive  $MODPATH  0  0  0755  0644
+  set_perm_recursive  $MODPATH/system/vendor/lib  0  0  0755  0644
+  set_perm_recursive  $MODPATH/system/vendor/lib64  0  0  0755  0644
+  set_perm_recursive  $MODPATH/system/vendor/bin  0  0  0755  0755
 }
