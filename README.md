@@ -1,11 +1,5 @@
-# Magisk Module Template
+# EAS Enablement Magisk
 
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/module_repo.md)
+### Full EAS Enablement with VoxPopuli PowerHAL
 
-### README.md
-
-This `README.md` can be shown in Magisk Manager. Place any information/changelog/notes you like.
-
-**Please update `README.md` if you want to submit your module to the online repo!**
-
-You can edit your `README.md` within Github's online editor, it also has an preview button! Check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for markdown syntaxes, it's super easy!
+This module enables full EAS support including perfd, libcutils and the [VoxPopuli PowerHAL](https://github.com/EAS-Project/android_device_voxpopuli) by @joshuous
